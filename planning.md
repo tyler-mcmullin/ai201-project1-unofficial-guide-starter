@@ -45,9 +45,16 @@ for the information through forum pages. One could use the official course catal
 
 **Chunk size:**
 
+Documents will the chunked differently based on two schemes. For reviews and focused descriptions, the chunker will take the entire document.
+For all other sources, the chunk size will be 200 tokens.
+
 **Overlap:**
 
+The self contained review sources will have 0 overlap and the other sources will have an overlap of 30 tokens.
+
 **Reasoning:**
+
+It is important that the reviews are taken as they are individually because it is very likely they will have a mixed output. One RateMyProfessor review saying a professor is the best and super easy taken in the same chunk as one contradicting it may cause unwanted results. Also in taking the course catalog information on its own, it will not confuse the content of two courses. Having the larger chunk size for the other sources can take about a paragraph of writing from a news article while keeping some context from adjacent paragraphs.
 
 ---
 
@@ -61,9 +68,17 @@ for the information through forum pages. One could use the official course catal
 
 **Embedding model:**
 
+The embedding model I am using is the all-MiniLM-l6-v2 model.
+
 **Top-k:**
 
+Again, I will be using a dynamic top-k to reflect the source being read. Smaller sources like the course catalog and professor reviews will
+take 3 chunks while larger sources will take 5 in order to get the proper context.
+
 **Production tradeoff reflection:**
+
+For real work deployment, different embedding models allow for different functionality. Other models allow for larger chunk sizes to be taken which can be useful for larger articles. I could also consider using a model that is trained on the more business-like language that will be found in the official univerity
+pages. Multilingual support is also a strong consideration for using a different model due to the many international students that may be more comfortable using their native language.
 
 ---
 
@@ -76,11 +91,11 @@ for the information through forum pages. One could use the official course catal
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Who teaches CSCE 331? | Multiple answers including Professor Taele and Lightfoot |
+| 2 | What are the prerequisites for CSCE 331? | CSCE 313, 314, and 350 |
+| 3 | When are final grades due for Summer 2026? | August 11th, 2026 |
+| 4 | How did the Texas A&M football season go in 2025? | Good regular season, but weak in playoffs |
+| 5 | How long is parking permit registration open? | Through July 7th |
 
 ---
 
@@ -90,9 +105,9 @@ for the information through forum pages. One could use the official course catal
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Could mix previous or incorrect information with factual information. University specific questions about certain policies may have changed or a user could be incorrect which could override the correct answer from an official source. 
 
-2.
+2. Forum type answers may give conflicting answers that will confuse the model. If someone asks if a professor is good and the chunk receives two comments that say the opposite thing, the model may not give a quality answer.
 
 ---
 
@@ -103,7 +118,7 @@ for the information through forum pages. One could use the official course catal
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
-
+![Pipeline Diagram](pipeline_diagram.jpg)
 ---
 
 ## AI Tool Plan
@@ -117,6 +132,20 @@ for the information through forum pages. One could use the official course catal
      "I'll use AI to help me code" is not a plan.
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
+
+     I will be using Claude with the credits given for this course for every section. I will also ask it to help me organize my project so that
+     my personal workflow is optimized and focused.
+
+     Ingestion: Here I will ask AI to help me develop a web scraping tool to access my documents. I will ask again for more specific help retrieving 
+     JavaScript information from RateMyProfessor. I will expect basic web scraping scripts that I can run and test locally through console output.
+
+     Chunking: I will use AI to develop two chunking strategies depending on the source with different top-k levels. I will expect it to give me different classes for my sources so that they can conditionally follow different chunking strategies. 
+
+     Embedding: Here I will ask AI to help implement the all-MiniLM-L6-v2 model and integrate it with the previous chunker and web scrapers. I can test this stage by asking AI to make a small script to check that vectors are being produced and stored correctly. 
+
+     Retrieval: Here I will ask AI to help integrate previous steps and ChromaDB and then I will test the retrieved data and ensure that what is being pulled is actually relevant to my previously defined test queries.  
+
+     Generation: Again, I will use AI to help integrate Groq and then make sure my test queries are working correctly. 
 
 **Milestone 3 — Ingestion and chunking:**
 
