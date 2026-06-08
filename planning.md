@@ -23,16 +23,16 @@ for the information through forum pages. One could use the official course catal
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | RateMyProfessor | Online Forum Rating Professor Quality | https://www.ratemyprofessors.com/school/19496 |
-| 2 | TexAgs | Forum and news site for current and former students of Texas A&M | https://www.texags.com/ |
+| 1 | RateMyProfessor | Texas A&M Computer Science Department | https://www.ratemyprofessors.com/search/professors/1003?q=*&did=11 |
+| 2 | TexAgs | News site for A&M football | https://texags.com/aggie-football |
 | 3 | r/aggies | Subreddit for Texas A&M | | https://www.reddit.com/r/aggies/ |
-| 4 | TAMU Registrar | Official page of A&M registrar | https://registrar.tamu.edu/index.html |
-| 5 | The Battalion | Student newspaper for campus news | https://www.thebatt.com/ |
-| 6 | TAMU Course Catalog | Official university catalog for course information | https://catalog.tamu.edu/ |
+| 4 | TAMU Registrar | Summer Academic Calendar | academic-calendar.txt |
+| 5 | The Battalion | Student newspaper for campus news | https://www.thebatt.com/news |
+| 6 | TAMU Course Catalog | Offician BS - Computer Science Degree Plan | BS-Computer Science.pdf |
 | 7 | 12thman | TAMU Athletics news source | https://12thman.com/ |
-| 8 | TAMU Transportation | Official page for university parking and transportation | https://transport.tamu.edu/ |
-| 9 | TAMU.edu | Main university page | https://www.tamu.edu/ |
-| 10 | Visit College Station | City page about attractions and dining within College Station | https://visit.cstx.gov/ |
+| 8 | TAMU Transportation | Official FAQs page for university parking and transportation | parking-faqs.txt |
+| 9 | TAMU.edu | Upcoming Tuition Due Dates | tuition-due-dates.txt |
+| 10 | Visit College Station Events | City page about events within College Station | cstx-events.txt |
 
 ---
 
@@ -91,10 +91,10 @@ pages. Multilingual support is also a strong consideration for using a different
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | Who teaches CSCE 331? | Multiple answers including Professor Taele and Lightfoot |
+| 1 | What is Professor Paul Taele rated on RateMyProfessor? | 4.4 |
 | 2 | What are the prerequisites for CSCE 331? | CSCE 313, 314, and 350 |
 | 3 | When are final grades due for Summer 2026? | August 11th, 2026 |
-| 4 | How did the Texas A&M football season go in 2025? | Good regular season, but weak in playoffs |
+| 4 | When is the summer nature camp? | Jun 8th to Aug 14th |
 | 5 | How long is parking permit registration open? | Through July 7th |
 
 ---
