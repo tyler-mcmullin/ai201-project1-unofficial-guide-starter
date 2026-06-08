@@ -11,6 +11,9 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
+This domain provides a mix of objective information through sports scores, course offerings, and university scheduling but also provides subjective context 
+for the information through forum pages. One could use the official course catalog to find which course they need to fulfil a degree plan, but the other sources can narrow down a wide range of choices into preferable outcomes. Official pages are often deep and take time to navigate, which can be inconvenient for someone trying to take a cursory look. 
+
 ---
 
 ## Documents
@@ -20,16 +23,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | RateMyProfessor | Online Forum Rating Professor Quality | https://www.ratemyprofessors.com/school/19496 |
+| 2 | TexAgs | Forum and news site for current and former students of Texas A&M | https://www.texags.com/ |
+| 3 | r/aggies | Subreddit for Texas A&M | | https://www.reddit.com/r/aggies/ |
+| 4 | TAMU Registrar | Official page of A&M registrar | https://registrar.tamu.edu/index.html |
+| 5 | The Battalion | Student newspaper for campus news | https://www.thebatt.com/ |
+| 6 | TAMU Course Catalog | Official university catalog for course information | https://catalog.tamu.edu/ |
+| 7 | 12thman | TAMU Athletics news source | https://12thman.com/ |
+| 8 | TAMU Transportation | Official page for university parking and transportation | https://transport.tamu.edu/ |
+| 9 | TAMU.edu | Main university page | https://www.tamu.edu/ |
+| 10 | Visit College Station | City page about attractions and dining within College Station | https://visit.cstx.gov/ |
 
 ---
 
