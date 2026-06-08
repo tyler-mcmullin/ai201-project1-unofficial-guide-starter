@@ -48,9 +48,14 @@ for the information through forum pages. One could use the official course catal
 Documents will the chunked differently based on two schemes. For reviews and focused descriptions, the chunker will take the entire document.
 For all other sources, the chunk size will be 200 tokens.
 
+- changes: Single chunking strategy with 150 tokens and 30 overlap. Single chunking strategy allows for simpler implementation and keeping the tokens
+lower increases likelihood of chunks remaining within an appropriate size
+
 **Overlap:**
 
 The self contained review sources will have 0 overlap and the other sources will have an overlap of 30 tokens.
+
+- changes: single chunking strategy
 
 **Reasoning:**
 
