@@ -96,11 +96,11 @@ pages. Multilingual support is also a strong consideration for using a different
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | What is Professor Paul Taele rated on RateMyProfessor? | 4.4 |
-| 2 | What are the prerequisites for CSCE 331? | CSCE 313, 314, and 350 |
-| 3 | When are final grades due for Summer 2026? | August 11th, 2026 |
-| 4 | When is the summer nature camp? | Jun 8th to Aug 14th |
-| 5 | How long is parking permit registration open? | Through July 7th |
+| 1 | What is Professor Paul Taele rated on RateMyProfessor? | 4.6 |
+| 2 | What classes should be taken the first semester for a computer science degree? | CHEM 107 and 117, ENGL 103, ENGR 102, MATH 151 |
+| 3 | When is tuition due for Summer 2026? | May 21st, 2026 |
+| 4 | When is the Caneck Culinary camp? | Jun 8th to Jul 24th |
+| 5 | Why are warnings not given to parking violators? | Warnings do not work|
 
 ---
 

@@ -1,0 +1,66 @@
+COMPUTER SCIENCE - BS
+Texas A&M University
+
+The computer science curriculum is designed to prepare students to enter the rapidly expanding field of computing. The four-year undergraduate curriculum provides sound preparation in computing, science, mathematics, English and statistics.
+
+PROGRAM EDUCATIONAL OBJECTIVES
+1. Graduates use computer science principles to identify and solve emerging technological and societal problems ethically.
+2. Graduates who enter the workforce become effective leaders and innovators.
+3. Graduates who pursue advanced degrees succeed in prestigious graduate programs.
+4. Graduates engage in life-long learning to adapt to new technologies.
+
+DEGREE PLAN
+
+FIRST YEAR - FALL SEMESTER (16 credit hours) CHEM 107 - General Chemistry for Engineering Students - 3 hours CHEM 117 - General Chemistry for Engineering Students Laboratory - 1 hour ENGL 103 or ENGL 104 - Introduction to Rhetoric and Composition or Composition and Rhetoric - 3 hours ENGR 102 - Engineering Lab I - Computation - 2 hours MATH 151 - Engineering Mathematics I - 4 hours University Core Curriculum elective - 3 hours
+
+FIRST YEAR - SPRING SEMESTER (15-16 credit hours) ENGR 216 / PHYS 216 - Experimental Physics and Engineering Lab II - Mechanics - 2 hours MATH 152 - Engineering Mathematics II - 4 hours PHYS 206 - Newtonian Mechanics for Engineering and Science - 3 hours University Core Curriculum elective - 3 hours CHEM 120 - Fundamentals of Chemistry II or University Core Curriculum elective - 3-4 hours
+
+SECOND YEAR - FALL SEMESTER (17 credit hours)
+CSCE 181 - Introduction to Computing - 1 hour
+CSCE 120 - Program Design and Concepts - 3 hours
+CSCE 222 / ECEN 222 - Discrete Structures for Computing - 3 hours
+MATH 304 - Linear Algebra - 3 hours
+University Core Curriculum elective - 3 hours
+Science elective - 4 hours
+
+SECOND YEAR - SPRING SEMESTER (17 credit hours)
+CSCE 221 - Data Structures and Algorithms - 4 hours
+CSCE 312 - Computer Organization - 4 hours
+CSCE 314 - Programming Languages - 3 hours
+COMM 203 or COMM 205 or ENGL 210 - Communication elective - 3 hours
+Complementary elective - 3 hours
+
+THIRD YEAR - FALL SEMESTER (15 credit hours)
+CSCE 231 - Computing Ethics - 1 hour
+CSCE 313 - Introduction to Computer Systems - 4 hours
+CSCE 331 - Foundations of Software Engineering - 4 hours. Prerequisites: CSCE 313, CSCE 314, and CSCE 221.
+STAT 211 - Principles of Statistics I - 3 hours
+Complementary elective - 3 hours
+
+THIRD YEAR - SPRING SEMESTER (16 credit hours)
+CSCE 325 - Foundations of Artificial Intelligence and Machine Learning - 3 hours
+CSCE 411 - Design and Analysis of Algorithms - 3 hours
+CSCE 481 - Seminar - 1 hour
+MATH 251 or MATH 308 or STAT 212 - Mathematics elective - 3 hours
+Computer science elective - 3 hours
+Science elective - 3 hours
+CSCE 399 - High-Impact Experience
+
+FOURTH YEAR - FALL SEMESTER (15 credit hours)
+University Core Curriculum elective - 3 hours
+Complementary elective - 3 hours
+Computer science electives - 9 hours
+
+FOURTH YEAR - SPRING SEMESTER (15 credit hours)
+CSCE 482 - Senior Capstone Design - 3 hours
+University Core Curriculum electives - 6 hours
+Computer science electives - 6 hours
+
+TOTAL CREDIT HOURS: 126
+
+NOTES
+- A grade of C or better is required in all CSCE courses.
+- Of the 18 computer science elective hours: 3 must be systems electives, 3 must be software and languages electives, 3 must be information and applications electives, 9 must be upper-level CS electives.
+- Of the 21 University Core Curriculum hours: 3 from creative arts, 3 from social and behavioral sciences, 3 from language/philosophy/culture, 6 from American history, 6 from government/political science.
+- All students must complete a high-impact experience to graduate.
+- This program is approved to be offered at Texas A&M University at Galveston campus.

@@ -39,33 +39,29 @@ except ImportError:
 # ---------------------------------------------------------------------------
 
 DOCUMENTS = [
-    # Local PDFs
-    {"type": "pdf",  "path": "documents/BS-Computer Science.pdf",
-     "url": "https://catalog.tamu.edu/"},
-
     # Local TXT files
-    {"type": "txt",  "path": "documents/academic-calendar.txt",
+    {"type": "txt", "path": "documents/BS-Computer-Science-Program.txt",
+     "url": "https://catalog.tamu.edu/"},
+    {"type": "txt", "path": "documents/academic-calendar.txt",
      "url": "https://calendar.tamu.edu/registrar/all"},
-     {"type": "txt",  "path": "documents/cstx-events.txt",
+    {"type": "txt", "path": "documents/cstx-events.txt",
      "url": "https://visit.cstx.gov/"},
-     {"type": "txt",  "path": "documents/parking-faqs.txt",
+    {"type": "txt", "path": "documents/parking-faqs.txt",
      "url": "https://transport.tamu.edu/Parking/faqparking.aspx"},
-     {"type": "txt",  "path": "documents/tuition-due-dates.txt",
+    {"type": "txt", "path": "documents/tuition-due-dates.txt",
      "url": "https://www.tamu.edu/admissions/index.html"},
+    {"type": "txt", "path": "documents/paul-taele-rmp.txt",
+     "url": "https://www.ratemyprofessors.com/search/professors/1003"},
 
     # Dynamic URLs (JS-rendered)
     {"type": "dynamic", "url": "https://www.thebatt.com/news",
      "wait_selector": "article"},
     {"type": "dynamic", "url": "https://12thman.com/",
      "wait_selector": "article, .story"},
-
-    # RateMyProfessor — CS department
-    {"type": "rmp",
-     "url": "https://www.ratemyprofessors.com/search/professors/1003"},
 ]
 
 # Chunking config (tuned for all-MiniLM-L6-v2's 256-token limit)
-STANDARD_CHUNK_SIZE = 150   # tokens
+STANDARD_CHUNK_SIZE = 175   # tokens
 STANDARD_OVERLAP    = 30    # tokens
 OUTPUT_FILE         = "chunks.jsonl"
 HEADERS             = {"User-Agent": "Mozilla/5.0 (research bot)"}
